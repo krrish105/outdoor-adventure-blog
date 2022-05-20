@@ -1,0 +1,21 @@
+.quote{
+    background-color: #f5f5f5;
+    text-align: center;
+
+    &__container{
+        padding: 50px 30px;
+        h3{
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+        span{
+            font-weight: 500;
+        }
+    }
+
+    &__img{
+        max-width: 9%;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,42 @@
+.hero{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../../../../public/images/home/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: color;
+    color: $white;
+
+    &__container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        h1{
+            font-size: 4rem;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            text-transform: uppercase;
+
+            @include lm{
+                font-size: 2.75rem;
+            }
+            @include sm{
+                font-size: 1.875rem;
+            }
+        }
+        h2{
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+
+            @include lm{
+                font-size: 1.5rem;
+            }
+
+        }
+    }
+}

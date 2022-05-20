@@ -5,6 +5,10 @@
     margin: 0 auto;
 }
 
+section{
+    margin-top: 100px;
+}
+
 .btn{
     text-transform: uppercase;
     padding: 17px 40px;
@@ -19,4 +23,12 @@
     &:hover{
         background-color: $red--alt;
     }
+}
+
+.line{
+    width: 95px;
+    height: 3px;
+    background-color: $red;
+    display: block;
+    margin: 0 auto;
 }
