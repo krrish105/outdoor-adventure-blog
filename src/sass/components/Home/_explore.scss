@@ -1,0 +1,37 @@
+.explore{
+    background-image: url('../../../../public/images/home/section-bg-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: color;
+    padding: 170px 0;
+    color: $white;
+
+    &__container{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        @include md{
+            grid-template-columns: 1fr
+        }
+
+        h1{
+            @extend .section__heading;
+            color: $white;
+        }
+
+        span{
+            margin: 0;
+            width: 70px;
+        }
+
+        p{
+            margin-top: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        
+    }
+
+}
