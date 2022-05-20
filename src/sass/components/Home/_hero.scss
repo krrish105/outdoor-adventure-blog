@@ -17,17 +17,8 @@
         text-align: center;
 
         h1{
-            font-size: 4rem;
-            margin-top: 2rem;
             margin-bottom: 4rem;
-            text-transform: uppercase;
-
-            @include lm{
-                font-size: 2.75rem;
-            }
-            @include sm{
-                font-size: 1.875rem;
-            }
+           @extend .featured__title;
         }
         h2{
             font-size: 1.5rem;

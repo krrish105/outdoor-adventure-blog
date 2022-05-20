@@ -1,0 +1,24 @@
+.about__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.5rem;
+
+    @include md{
+        grid-template-columns: 1fr;
+    }
+
+    .about__data{
+        padding-left: 15px;
+
+        h1{
+            @extend .section__heading;
+        }
+        h2{
+            font-size: 1.25rem;
+        }
+    }
+
+    .line{
+        margin: 1rem 0;
+    }
+}

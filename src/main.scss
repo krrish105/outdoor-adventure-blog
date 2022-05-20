@@ -16,6 +16,10 @@
 
 // components
 @import './sass/components/global/header';
+// footer 
+@import './sass/components/global/footer';
+// featured
+@import './sass/components/global/featured';
 
 /* =============== Home =============== */
 // Hero
@@ -28,3 +32,7 @@
 @import './sass/components/Home/explore';
 // Upcoming
 @import './sass/components/Home/upcoming';
+
+/* =============== About =============== */
+//About Content
+@import './sass/components/about/aboutcontent';
