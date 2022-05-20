@@ -16,8 +16,8 @@ const Menu = () => {
             <li className="nav__item">
                 <a href="/" className="nav__link">Projects</a>
             </li>
-            <li className="nav__item">
-                <a href="/" className="nav__link">take actions</a>
+            <li className="nav__item cta">
+                <a href="/" className="nav__link btn ">take actions</a>
             </li>
         </ul>
     </div>
