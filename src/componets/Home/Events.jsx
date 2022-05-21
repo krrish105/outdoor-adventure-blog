@@ -14,7 +14,7 @@ const Events = () => {
                             Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
                             liberioris inistra possedit.
                         </p>
-                        <a href="/" className="btn">learn more </a>
+                        <a href="#" className="btn">learn more </a>
                     </div>
                 </div>
 
@@ -26,7 +26,7 @@ const Events = () => {
                             Fuerat aestu carentem habentia spectent tonitrua mutastis locavit
                             liberioris inistra possedit.
                         </p>
-                        <a href="/" className="btn">learn more </a>
+                        <a href="#" className="btn">learn more </a>
                     </div>
                 </div>
             </div>

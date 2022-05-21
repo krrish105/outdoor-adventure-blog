@@ -13,7 +13,7 @@ const Upcoming = () => {
                         coepyterunt perveniunt animal! Concordi aurea nabataeaque seductaque
                         constaque cepit sublime flexi nullus.
                     </p>
-                    <a href="/" className="btn">Learn More</a>
+                    <a href="#" className="btn">Learn More</a>
                 </div>
                 <div className="upcoming__images">
                     <div className="upcoming__images-1">

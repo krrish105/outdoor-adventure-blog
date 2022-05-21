@@ -13,7 +13,7 @@ const Explore = () => {
                         Fert his. Recessit mentes praecipites locum caligine sui egens erat.
                         Silvas caeli regna.
                     </p>
-                    <a href="/" className="btn">Learn More</a>
+                    <a href="#" className="btn">Learn More</a>
                 </div>
             </div>
         </section>
