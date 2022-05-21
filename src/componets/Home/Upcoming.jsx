@@ -17,16 +17,16 @@ const Upcoming = () => {
                 </div>
                 <div className="upcoming__images">
                     <div className="upcoming__images-1">
-                        <img src="/images/home/outdoor-1.jpg" alt="" />
+                        <img src="/images/home/ski-1.jpg" alt="" />
                     </div>
                     <div className="upcoming__images-2">
-                        <img src="/images/home/outdoor-2.jpg" alt="" />
+                        <img src="/images/home/ski-2.jpg" alt="" />
                     </div>
                     <div className="upcoming__images-3">
-                        <img src="/images/home/outdoor-3.jpg" alt="" />
+                        <img src="/images/home/ski-3.jpg" alt="" />
                     </div>
                     <div className="upcoming__images-4">
-                        <img src="/images/home/outdoor-4.jpg" alt="" />
+                        <img src="/images/home/ski-4.jpg" alt="" />
                     </div>
                 </div>
             </div>

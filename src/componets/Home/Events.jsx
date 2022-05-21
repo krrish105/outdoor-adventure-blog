@@ -7,7 +7,7 @@ const Events = () => {
             <span className="line"></span>
             <div className="events__container container">
                 <div className="events__blog">
-                    <img src="/images/home/hiking.jpg" alt="hiking" />
+                    <img src="/images/home/hiking-1.jpg" alt="hiking" />
                     <div className="events__blog__body">
                         <h3>everest camp trek</h3>
                         <p>
@@ -19,7 +19,7 @@ const Events = () => {
                 </div>
 
                 <div className="events__blog">
-                    <img src="/images/home/walking.jpg" alt="walking" />
+                    <img src="/images/home/hiking-2.jpg" alt="walking" />
                     <div className="events__blog__body">
                         <h3>everest camp trek</h3>
                         <p>

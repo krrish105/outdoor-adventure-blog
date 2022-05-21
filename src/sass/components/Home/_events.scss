@@ -10,7 +10,7 @@
         margin-top: 50px;
         text-align: center;
         display: grid;
-        gap: 3.5rem;
+        gap: 4.5rem;
         grid-template-columns: repeat(2, 1fr);
 
         @include md{
@@ -19,8 +19,11 @@
     }
 
     &__blog{
+
         img{
             @extend .blog__img;
+            height: 350px;
+            object-fit: cover;
         }
         &__body{
             padding: 0 10px;

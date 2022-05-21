@@ -20,7 +20,7 @@ const AboutContent = () => {
 
 
             <div className="about__data">
-                <img src="/images/about/outdoor-1.jpg" alt="" />
+                <img src="/images/home/hiking-1.jpg" alt="" />
             </div>
 
 

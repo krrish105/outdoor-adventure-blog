@@ -11,7 +11,7 @@ const ServicesContent = () => {
             </p>
             <div className="services__blog__container">
                 <div className="services__blog">
-                    <img src="/images/home/hiking.jpg" alt="hiking" />
+                    <img src="/images/home/hiking-1.jpg" alt="hiking" />
                     <div className="services__blog__body">
                         <h3>Backpacking Trips</h3>
                         <p>
