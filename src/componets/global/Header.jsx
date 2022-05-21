@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Menu from './Menu'
-import {GiHamburgerMenu} from 'react-icons/gi'
-import {AiOutlineClose} from 'react-icons/ai'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { AiOutlineClose } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -9,15 +10,17 @@ const Navbar = () => {
 
   return (
     <header className="header">
-      <nav className={` ${menuOpen? 'nav container active' : 'nav container'}`}>
+      <nav className={` ${menuOpen ? 'nav container active' : 'nav container'}`}>
         <div className="nav__logo">
-          <img src="./images/home/logo.png" alt="logo" className='nav__logo-img'/>
+          <Link to='/'>
+            <img src="./images/home/logo.png" alt="logo" className='nav__logo-img' />
+          </Link>
         </div>
         <>
           <Menu />
         </>
         <div className="nav__toggle" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen? <AiOutlineClose /> : <GiHamburgerMenu /> }
+          {menuOpen ? <AiOutlineClose /> : <GiHamburgerMenu />}
         </div>
       </nav>
     </header>

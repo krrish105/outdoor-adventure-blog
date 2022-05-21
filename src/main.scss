@@ -22,17 +22,11 @@
 @import './sass/components/global/featured';
 
 /* =============== Home =============== */
-// Hero
-@import './sass/components/Home/hero';
-// Quote
-@import './sass/components/Home/quote';
-// Events
-@import './sass/components/Home/events';
-// Explore
-@import './sass/components/Home/explore';
-// Upcoming
-@import './sass/components/Home/upcoming';
+@import './sass/components/Home/home';
 
 /* =============== About =============== */
 //About Content
 @import './sass/components/about/aboutcontent';
+
+/* =============== Service =============== */
+@import './sass/components/services/services';

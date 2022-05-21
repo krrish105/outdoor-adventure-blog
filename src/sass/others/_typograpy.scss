@@ -4,6 +4,10 @@
     text-transform: uppercase;
     color: $black;
     margin-bottom: 1.875rem;
+
+    @include sm{
+        font-size: 1.5rem;
+    }
 }
 
 .blog__img{

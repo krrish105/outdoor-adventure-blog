@@ -1,0 +1,36 @@
+.services__content{
+    text-align: center;
+    .services__title{
+        @extend .section__heading;
+    }
+    .services__description{
+        margin-top: 1.5rem;
+        padding: 0 80px;
+
+        @include sm{
+            padding: 0;
+        }
+    }
+
+    .services__blog__container{
+        margin-top: 80px;
+        display: grid;
+        gap: 2.5rem;
+        grid-template-columns: repeat(2, 1fr);
+
+         @include md{
+             grid-template-columns: 1fr;
+         }
+
+        .services__blog{
+
+            &__body{
+                padding: 1rem .8rem 0 .8rem;
+
+                h3{
+                    @extend .blog__title;
+                }
+            }
+        }
+    }
+}
