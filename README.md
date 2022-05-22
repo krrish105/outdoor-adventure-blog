@@ -1,3 +1,34 @@
+# Outdoor Adeventure Blog Webiste
+
+I took the UI design from a wordpress theme and converted to a React website. I used React JS and Sass in this project.
+
+## Links
+
+- Solution URL: https://github.com/sajibhn/outdoor-adventure-blog
+- Live Site URL: https://rococo-tartufo-cbea4b.netlify.app/
+
+## My Process
+
+- React JS
+- SASS
+- React Router @v6
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+
+## What I learned
+
+- I learned about React JS components, JSX, state management
+- I learned about React Router
+- I learned about SASS
+
+## Author
+
+ - Sajib Hossain - [twitter](https://twitter.com/sajib_hsn)
+ - Sajib Hossain - [Linked in](https://www.linkedin.com/in/sajib-hossain-17929b225/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
