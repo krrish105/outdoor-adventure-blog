@@ -10,14 +10,14 @@ const Navbar = () => {
 
   return (
     <header className="header">
-      <nav className={` ${menuOpen ? 'nav container active' : 'nav container'}`}>
+      <nav className={`${menuOpen ? 'nav container active' : 'nav container'}`}>
         <div className="nav__logo">
           <Link to='/'>
             <img src="./images/home/logo.png" alt="logo" className='nav__logo-img' />
           </Link>
         </div>
         <>
-          <Menu />
+          <Menu menuOpen = {menuOpen} setMenuOpen = {setMenuOpen}/>
         </>
         <div className="nav__toggle" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <AiOutlineClose /> : <GiHamburgerMenu />}
